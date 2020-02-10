@@ -28,6 +28,11 @@ target 'Papr' do
   target 'PaprTests' do
     inherit! :search_paths
     # Pods for testing
+    pod 'Quick'
+    pod 'RxNimble'
+    pod 'Mimus'
+    pod 'RxTest'
+    pod 'TinyNetworking/RxSwift'
   end
 
 end
